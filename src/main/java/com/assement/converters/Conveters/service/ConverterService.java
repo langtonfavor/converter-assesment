@@ -11,9 +11,9 @@ public class ConverterService {
 
 
     public static double milesToKilometers(double value) {
-        return value / 1.609;
+        return value * 1.609;
     }
     public static double KilometersToMiles(double value) {
-        return value * 1.609;
+        return value / 1.609;
     }
 }
